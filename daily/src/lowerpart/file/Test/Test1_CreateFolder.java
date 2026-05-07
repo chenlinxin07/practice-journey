@@ -8,7 +8,7 @@ public class Test1_CreateFolder {
         //需求：在当前模块下的aaa文件夹中创建一个a.txt文件
 
         //1.创建a.txt的父级路径
-        File file = new File("myfile\\aaa");
+        File file = new File("daily/src/lowerpart/file/aaa");
         //2.创建父级路径
         //如果aaa是存在的，那么此时创建失败的。
         //如果aaa是不存在的，那么此时创建成功的。
