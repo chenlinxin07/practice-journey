@@ -1,4 +1,4 @@
-package lowerpart.myio.mybytestreamwritedemo;
+package lowerpart.myio.mybytestreamwrite;
 
 import java.io.FileOutputStream;
 import java.io.IOException;

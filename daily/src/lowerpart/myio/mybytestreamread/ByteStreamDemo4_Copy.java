@@ -1,7 +1,6 @@
-package lowerpart.myio.mybytestreamreaddemo;
+package lowerpart.myio.mybytestreamread;
 
 import java.io.FileInputStream;
-import java.io.FileNotFoundException;
 import java.io.FileOutputStream;
 import java.io.IOException;
 

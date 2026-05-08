@@ -1,0 +1,2 @@
+哈喽世界
+daily/src/lowerpart/myio/a.txt

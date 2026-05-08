@@ -1,4 +1,4 @@
-package lowerpart.myio.mybytestreamreaddemo;
+package lowerpart.myio.mybytestreamread.myio.mybytestreamread;
 
 import java.io.FileInputStream;
 import java.io.IOException;
