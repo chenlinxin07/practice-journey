@@ -1,4 +1,4 @@
-package lowerpart.myio.bytestreamcharstreamtest;
+package lowerpart.myio.test;
 
 import java.io.*;
 

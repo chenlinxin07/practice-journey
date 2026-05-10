@@ -1,8 +1,8 @@
-package lowerpart.myio;
+package lowerpart.myio.mybufferedstream;
 
 import java.io.*;
 
-public class BufferedStreamDemo1 {
+public class BufferedStreamDemo2_inputoutput {
     static void main(String[] args) throws IOException {
         /*
          *   需求：
@@ -15,20 +15,16 @@ public class BufferedStreamDemo1 {
          *           public BufferedOutputStream(OutputStream os)
          *
          * */
-
-
-        //1.创建缓冲流的对象
+        //1.创建缓冲流对象
         BufferedInputStream bis = new BufferedInputStream(new FileInputStream("daily/src/lowerpart/myio/a.txt"));
-        BufferedOutputStream bos = new BufferedOutputStream(new FileOutputStream("myio\\a.txt"));
-        //2.循环读取并写到目的地
-        int b;
-        while ((b = bis.read()) != -1) {
-            bos.write(b);
+        BufferedOutputStream bos = new BufferedOutputStream(new FileOutputStream("daily/src/lowerpart/myio/copy2.txt"));
+        //2.拷贝(一次多个字节)
+        byte[] bytes = new byte[1024];
+        int len;
+        while ((len = bis.read(bytes)) != -1){
+            bos.write(bytes,0,len);
         }
-        //3.释放资源
         bos.close();
         bis.close();
-
-
     }
 }
