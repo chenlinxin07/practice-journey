@@ -25,8 +25,8 @@ public class ConvertStreamDemo3_ReadAndWrite {
         isr.close();*/
 
         //2.替代方案
-        FileReader fr = new FileReader("daily/src/lowerpart/myio/c.txt", Charset.forName("GBK"));
-        FileWriter fw = new FileWriter("daily/src/lowerpart/myio/d.txt",Charset.forName("UTF-8"));
+        FileReader fr = new FileReader("daily/src/lowerpart/myio/gbk.txt", Charset.forName("GBK"));
+        FileWriter fw = new FileWriter("daily/src/lowerpart/myio/gbktouf_8.txt",Charset.forName("UTF-8"));
         int b;
         while ((b = fr.read()) != -1){
             fw.write(b);

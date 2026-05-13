@@ -19,7 +19,7 @@ public class ConvertStreamDemo2_write {
         osw.close();*/
 
 
-        FileWriter fw = new FileWriter("daily/src/lowerpart/myio/c.txt", Charset.forName("GBK"));
+        FileWriter fw = new FileWriter("daily/src/lowerpart/myio/gbk.txt", Charset.forName("GBK"));
         fw.write("你好你好");
         fw.close();
     }
