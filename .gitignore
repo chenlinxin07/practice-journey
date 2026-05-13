@@ -48,3 +48,12 @@ Thumbs.db  # Windows 系统
 
 # 其他无用文件
 nul
+
+
+# META-INF 目录
+META-INF/
+
+# 你需要忽略的单个文件
+test.sln
+test.vcxproj
+源.c
