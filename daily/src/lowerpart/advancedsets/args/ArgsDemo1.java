@@ -1,6 +1,7 @@
 package lowerpart.advancedsets.args;
 
 public class ArgsDemo1 {
+    //成功了没有呀
     static void main(String[] args) {
         //JDK5
         //可变参数
