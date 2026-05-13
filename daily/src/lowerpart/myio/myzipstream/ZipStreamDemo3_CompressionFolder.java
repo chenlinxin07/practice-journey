@@ -7,7 +7,7 @@ import java.io.IOException;
 import java.util.zip.ZipEntry;
 import java.util.zip.ZipOutputStream;
 
-//看到这行就说更新指向成功了
+//看到这行就说更新指向成功了,✌( •̀ ω •́ )y
 
 public class ZipStreamDemo3_CompressionFolder {
     static void main(String[] args) throws IOException {
