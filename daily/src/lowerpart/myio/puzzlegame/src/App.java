@@ -1,4 +1,7 @@
-import com.itheima.ui.LoginJFrame;
+package lowerpart.myio.puzzlegame.src;
+
+
+import lowerpart.myio.puzzlegame.src.com.ui.LoginJFrame;
 
 public class App {
     static void main(String[] args) {
