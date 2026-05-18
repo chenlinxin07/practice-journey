@@ -2,7 +2,7 @@ package upperpart.advancedsets.generictype;
 
 public class GenericsDemo_Class {
     static void main(String[] args) {
-       /* MyArrayList&lt;String&gt; list = new MyArrayList&lt;&gt;();
+       /* MyArrayList<String> list = new MyArrayList<>();
 
         list.add("aaa");
         list.add("bbb");

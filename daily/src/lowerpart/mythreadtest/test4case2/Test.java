@@ -22,11 +22,12 @@ public class Test {
         MyThread t4 = new MyThread();
         MyThread t5 = new MyThread();
 
-        t1.setName("小A");
-        t2.setName("小QQ");
-        t3.setName("小哈哈");
-        t4.setName("小诗诗");
-        t5.setName("小丹丹");
+        t1.setName("奶龙之母");
+        t2.setName("奶龙之父");
+        t3.setName("大鸡");
+        t4.setName("小鸡");
+        t5.setName("裴擒虎");
+
 
         t1.start();
         t2.start();

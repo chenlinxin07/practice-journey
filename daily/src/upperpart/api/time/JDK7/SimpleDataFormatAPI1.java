@@ -9,8 +9,8 @@ public class SimpleDataFormatAPI1 {
         /*
             public simpleDateFormat() 默认格式
             public simpleDateFormat(String pattern) 指定格式
-            public final string format(Date date) 格式化(日期对象 -&gt;字符串)
-            public Date parse(string source) 解析(字符串 -&gt;日期对象)
+            public final string format(Date date) 格式化(日期对象 ->字符串)
+            public Date parse(string source) 解析(字符串 ->日期对象)
         */
 
         //1.定义一个字符串表示时间

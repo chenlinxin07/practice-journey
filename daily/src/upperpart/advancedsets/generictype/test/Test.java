@@ -22,7 +22,7 @@ public class Test {
                        哈士奇方法体打印：一只叫做XXX的，X岁的哈士奇，正在吃骨头，边吃边拆家
 
             测试类中定义一个方法用于饲养动物
-                public static void keepPet(ArrayList&lt;???&gt; list){
+                public static void keepPet(ArrayList<???> list){
                     //遍历集合，调用动物的eat方法
                 }
             要求1：该方法能养所有品种的猫，但是不能养狗
@@ -48,13 +48,13 @@ public class Test {
 
 
   /*  //  要求2：该方法能养所有品种的狗，但是不能养猫
-    public static void keepPet(ArrayList&lt;? extends Dog&gt; list){
+    public static void keepPet(ArrayList<? extends Dog> list){
         //遍历集合，调用动物的eat方法
     }*/
 
 
     /*//要求1：该方法能养所有品种的猫，但是不能养狗
-    public static void keepPet(ArrayList&lt;? extends Cat&gt; list){
+    public static void keepPet(ArrayList<? extends Cat> list){
         //遍历集合，调用动物的eat方法
     }*/
 }

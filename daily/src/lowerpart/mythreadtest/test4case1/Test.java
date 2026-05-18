@@ -25,8 +25,8 @@ public class Test {
         //给线程设置名字
         t1.setName("奶龙之母");
         t2.setName("奶龙之父");
-        t3.setName("小鸡");
-        t4.setName("大鸡");
+        t3.setName("大鸡");
+        t4.setName("小鸡");
         t5.setName("裴擒虎");
 
         //启动线程

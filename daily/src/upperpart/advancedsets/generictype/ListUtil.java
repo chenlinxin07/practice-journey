@@ -20,7 +20,7 @@ public class ListUtil {
             list.add(e4);
         }
 
-/*    public static&lt;E&gt; void addAll2(ArrayList&lt;E&gt; list, E...e){
+/*    public static<E> void addAll2(ArrayList<E> list, E...e){
         for (E element : e) {
             list.add(element);
         }

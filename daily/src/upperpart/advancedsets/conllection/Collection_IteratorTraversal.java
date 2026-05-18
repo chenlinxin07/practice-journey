@@ -13,7 +13,7 @@ public class Collection_IteratorTraversal {
             3.lambda表达式遍历
 
          迭代器遍历相关的三个方法：
-                Iterator&lt;E&gt; iterator()  ：获取一个迭代器对象
+                Iterator<E> iterator()  ：获取一个迭代器对象
                 boolean hasNext()       ：判断当前指向的位置是否有元素
                 E next()                ：获取当前指向的元素并移动指针
     */
