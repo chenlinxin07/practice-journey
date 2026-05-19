@@ -12,23 +12,36 @@
 - **进阶仓库**：后续 JavaWeb、SpringBoot、Redis、项目等内容请移步 👉 
 
 ## 📂 代码结构
+```text
 practice-journey/
-├── daily/ # 日常练习（部分基础语法、算法小练）
-├── upperpart/ # Java 核心知识模块
-│ ├── BasicKnowledge/ # 基础语法
-│ ├── ObjectOrientedBeginner/ # 面向对象入门
-│ ├── AdvancedObjectOrientedProgramming/ # 面向对象高级
-│ ├── advancedsets/ # 集合框架（泛型、Collection、Map）
-│ ├── myreflect/ # 反射
-│ ├── mythread/ # 多线程基础
-│ ├── myio/ # IO 流
-│ ├── streamflow/ # Stream 流（函数式编程）
-│ ├── file/ # 文件操作
-│ └── ... # 其他辅助模块
-├── data-structure/ # 数据结构练习（链表、栈、队列、二叉树等）
-└── README.md
-
-text
+├── daily/
+│   ├── lib/
+│   └── src/
+│       ├── lowerpart/          # 黑马教程下部 进阶篇
+│       │   ├── advancedsets/
+│       │   ├── dynamicproxy/
+│       │   ├── exception/
+│       │   ├── file/
+│       │   ├── function/
+│       │   ├── myio/
+│       │   ├── myreflect/
+│       │   ├── mythread/
+│       │   ├── mythreadpool/
+│       │   ├── mythreadtest/
+│       │   └── streamflow/
+│       └── upperpart/          # 黑马教程上部 基础篇
+│           ├── AdvancedObjectOrientedProgramming/
+│           ├── BasicKnowledg/
+│           ├── ObjectOrientedBeginner/
+│           ├── StringDemo/
+│           ├── advancedsets/
+│           ├── api/
+│           ├── commonalgorithms/
+│           └── Main.java
+├── data-structure/            # 数据结构练习（链表、栈、队列、二叉树等）
+├── .gitignore
+├── README.md
+└── push_code.bat
 
 ## 🧠 涵盖知识点
 
