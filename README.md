@@ -11,38 +11,6 @@
 - **状态**：✅ 已完成，不再频繁更新。  
 - **进阶仓库**：后续 JavaWeb、SpringBoot、Redis、项目等内容请移步 👉 
 
-## 📂 代码结构
-```text
-practice-journey/
-├── daily/
-│   ├── lib/
-│   └── src/
-│       ├── lowerpart/          # 黑马教程下部 进阶篇
-│       │   ├── advancedsets/
-│       │   ├── dynamicproxy/
-│       │   ├── exception/
-│       │   ├── file/
-│       │   ├── function/
-│       │   ├── myio/
-│       │   ├── myreflect/
-│       │   ├── mythread/
-│       │   ├── mythreadpool/
-│       │   ├── mythreadtest/
-│       │   └── streamflow/
-│       └── upperpart/          # 黑马教程上部 基础篇
-│           ├── AdvancedObjectOrientedProgramming/
-│           ├── BasicKnowledg/
-│           ├── ObjectOrientedBeginner/
-│           ├── StringDemo/
-│           ├── advancedsets/
-│           ├── api/
-│           ├── commonalgorithms/
-│           └── Main.java
-├── data-structure/            # 数据结构练习（链表、栈、队列、二叉树等）
-├── .gitignore
-├── README.md
-└── push_code.bat
-
 ## 🧠 涵盖知识点
 
 ### Java 基础
@@ -87,4 +55,36 @@ practice-journey/
 ---
 
 **感谢浏览 👋**  
-后续进阶学习见主仓库 👉 
+后续进阶学习见主仓库 👉
+
+## 📂 代码结构
+```text
+practice-journey/
+├── daily/
+│   ├── lib/
+│   └── src/
+│       ├── lowerpart/          # 黑马教程下部 进阶篇
+│       │   ├── advancedsets/
+│       │   ├── dynamicproxy/
+│       │   ├── exception/
+│       │   ├── file/
+│       │   ├── function/
+│       │   ├── myio/
+│       │   ├── myreflect/
+│       │   ├── mythread/
+│       │   ├── mythreadpool/
+│       │   ├── mythreadtest/
+│       │   └── streamflow/
+│       └── upperpart/          # 黑马教程上部 基础篇
+│           ├── AdvancedObjectOrientedProgramming/
+│           ├── BasicKnowledg/
+│           ├── ObjectOrientedBeginner/
+│           ├── StringDemo/
+│           ├── advancedsets/
+│           ├── api/
+│           ├── commonalgorithms/
+│           └── Main.java
+├── data-structure/            # 数据结构练习（链表、栈、队列、二叉树等）
+├── .gitignore
+├── README.md
+└── push_code.bat
