@@ -5,7 +5,7 @@ import java.util.Comparator;
 
 public class LamdaDemo2 {
     // 修复1：主方法必须加 public 修饰符，否则程序无法运行
-    public static void main(String[] args) {
+    static void main(String[] args) {
 
         // ======================================
         // 核心：可推导，可省略！编译器能自己推断的内容，都可以省

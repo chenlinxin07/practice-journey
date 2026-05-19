@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.Collection;
 
 public class Conllection2_BasicMethods {
-    public static void main(String[] args) {
+    static void main(String[] args) {
         //1.创建集合的对象
         Collection<Student> coll = new ArrayList<>();
 

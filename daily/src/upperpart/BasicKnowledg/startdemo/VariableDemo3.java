@@ -1,7 +1,7 @@
 package upperpart.BasicKnowledg.startdemo;
 
 public class VariableDemo3{
-    public static void main(String[] args){
+    static void main(String[] args){
      //byte
      //byte的取值范围为"-128~127"
      byte b=10;

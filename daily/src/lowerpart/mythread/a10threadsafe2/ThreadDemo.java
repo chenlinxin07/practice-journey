@@ -1,7 +1,7 @@
 package lowerpart.mythread.a10threadsafe2;
 
 public class ThreadDemo {
-    public static void main(String[] args) {
+    static void main(String[] args) {
        /*
            需求：
                 某电影院目前正在上映国产大片，共有100张票，而它有3个窗口卖票，请设计一个程序模拟该电影院卖票

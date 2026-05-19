@@ -1,7 +1,7 @@
 package upperpart.api.RegularExpressionsAPI;
 
 public class RegularExpressions2 {
-    public static void main(String[] args) {
+    static void main(String[] args) {
         // \ 转义字符 改变后面那个字符原本的含义
         //练习:以字符串的形式打印一个双引号
         //"在Java中表示字符串的开头或者结尾

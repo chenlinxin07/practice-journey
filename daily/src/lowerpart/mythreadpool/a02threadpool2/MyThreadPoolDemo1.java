@@ -7,7 +7,7 @@ import java.util.concurrent.ThreadPoolExecutor;
 import java.util.concurrent.TimeUnit;
 
 public class MyThreadPoolDemo1 {
-    public static void main(String[] args){
+    static void main(String[] args){
 
     /*
         ThreadPoolExecutor threadPoolExecutor = new ThreadPoolExecutor
@@ -20,6 +20,12 @@ public class MyThreadPoolDemo1 {
         参数五：任务队列                  不能为null
         参数六：创建线程工厂              不能为null
         参数七：任务的拒绝策略             不能为null
+
+
+        不断地提交任务，会有以下三个临界点：
+        ① 当核心线程满时，再提交任务就会排队
+        ② 当核心线程满，队伍满时，会创建临时线程
+        ③ 当核心线程满，队伍满，临时线程满时，会触发任务拒绝策略
     */
 
         ThreadPoolExecutor pool = new ThreadPoolExecutor(
@@ -31,8 +37,6 @@ public class MyThreadPoolDemo1 {
                 Executors.defaultThreadFactory(),//创建线程工厂
                 new ThreadPoolExecutor.AbortPolicy()//任务的拒绝策略
         );
-
-
 
     }
 }

@@ -1,7 +1,7 @@
 package upperpart.BasicKnowledg.startdemo;
 
 public class ValueDemo1{
-	public static void main(String[] args) {
+	static void main(String[] args) {
 		//目标:需要大家掌握常见的数据在代码中如何书写
 		//整数
 		System.out.println(666);

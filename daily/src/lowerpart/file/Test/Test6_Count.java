@@ -7,7 +7,7 @@ import java.util.Map;
 import java.util.Set;
 
 public class Test6_Count {
-    public static void main(String[] args) throws IOException {
+    static void main(String[] args) throws IOException {
        /*
             需求：统计一个文件夹中每种文件的个数并打印。（考虑子文件夹）
             打印格式如下：

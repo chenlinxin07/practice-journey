@@ -3,7 +3,7 @@ package lowerpart.myio.puzzlegame.src.com.test;
 import java.util.Random;
 
 public class Test2 {
-    public static void main(String[] args) {
+    static void main(String[] args) {
         //需求：
         //把一个一维数组中的数据：0~15 打乱顺序
         //然后再按照4个一组的方式添加到二维数组当中

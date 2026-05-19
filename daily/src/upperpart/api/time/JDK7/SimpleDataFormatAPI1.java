@@ -5,7 +5,7 @@ import java.text.SimpleDateFormat;
 import java.util.Date;
 
 public class SimpleDataFormatAPI1 {
-    public static void main(String[] args) throws ParseException {
+    static void main(String[] args) throws ParseException {
         /*
             public simpleDateFormat() 默认格式
             public simpleDateFormat(String pattern) 指定格式

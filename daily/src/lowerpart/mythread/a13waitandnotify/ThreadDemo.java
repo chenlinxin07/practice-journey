@@ -2,7 +2,7 @@ package lowerpart.mythread.a13waitandnotify;
 
 
 public class ThreadDemo {
-    public static void main(String[] args) {
+    static void main(String[] args) {
        /*
        *
        *    需求：完成生产者和消费者（等待唤醒机制）的代码

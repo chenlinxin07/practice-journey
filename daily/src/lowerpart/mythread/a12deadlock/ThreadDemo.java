@@ -2,7 +2,7 @@ package lowerpart.mythread.a12deadlock;
 
 
 public class ThreadDemo {
-    public static void main(String[] args) {
+    static void main(String[] args) {
        /*
            需求：
                 死锁

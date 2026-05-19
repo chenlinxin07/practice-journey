@@ -1,7 +1,7 @@
 package lowerpart.mythread.a07threadmethod4;
 
 public class ThreadDemo {
-    public static void main(String[] args) {
+    static void main(String[] args) {
        /*
             public static void yield()      出让线程/礼让线程
 

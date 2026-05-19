@@ -2,7 +2,7 @@ package upperpart.BasicKnowledg.startdemo;
 
 public class VariableDemo2{
     //主入口
-    public static void main(String[] args){
+    static void main(String[] args){
         //基本用法
         //定义变量再进行输出
         int a=10;

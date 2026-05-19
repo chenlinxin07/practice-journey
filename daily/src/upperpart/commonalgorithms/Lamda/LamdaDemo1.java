@@ -9,7 +9,7 @@ public class LamdaDemo1 {
     }
 
     public class LambdaDemo2 {
-        public static void main(String[] args) {
+        static void main(String[] args) {
 
             // ---------------- 方式1：匿名内部类写法 ----------------
             System.out.println("===== 匿名内部类写法 =====");

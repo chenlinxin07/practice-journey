@@ -3,7 +3,7 @@ package upperpart.StringDemo.String;
 import java.util.Scanner;
 
 public class SimulateUserLogin {
-    public static void main(String[] args) {
+    static void main(String[] args) {
         //1.定义两个变量用来记录正确的用户名和密码
         String rightUsername = "杏歇";
         String rightPassword = "1234qwer";

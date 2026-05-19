@@ -5,7 +5,7 @@ import java.math.BigInteger;
 import java.util.Random;
 
 public class BigIntegerAPI1 {
-    public static void main(String[] args) {
+    static void main(String[] args) {
         /*
             public BigInteger(int num, Random rnd) 获取随机大整数，范围:[0~ 2的num次方-11
             public BigInteger(String val) 获取指定的大整数

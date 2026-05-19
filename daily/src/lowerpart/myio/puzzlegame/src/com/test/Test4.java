@@ -1,7 +1,7 @@
 package lowerpart.myio.puzzlegame.src.com.test;
 
 public class Test4 {
-    public static void main(String[] args) {
+    static void main(String[] args) {
         new MyJFrame3();
     }
 }

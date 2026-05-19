@@ -4,7 +4,7 @@ import java.util.Date;
 import java.util.Random;
 
 public class dataAPI {
-    public static void main(String[] args) {
+    static void main(String[] args) {
         /*
         需求1:打印时间原点开始一年之后的时间
         需求2:定义任意两个Date对象，比较一下哪个时间在前，哪个时间在后

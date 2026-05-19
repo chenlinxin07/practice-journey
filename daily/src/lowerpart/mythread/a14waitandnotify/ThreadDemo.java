@@ -4,7 +4,7 @@ package lowerpart.mythread.a14waitandnotify;
 import java.util.concurrent.ArrayBlockingQueue;
 
 public class ThreadDemo {
-    public static void main(String[] args) {
+    static void main(String[] args) {
        /*
        *
        *    需求：利用阻塞队列完成生产者和消费者（等待唤醒机制）的代码

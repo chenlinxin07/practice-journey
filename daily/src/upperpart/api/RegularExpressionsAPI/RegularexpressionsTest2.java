@@ -1,7 +1,7 @@
 package upperpart.api.RegularExpressionsAPI;
 
 public class RegularexpressionsTest2 {
-    public static void main(String[] args) {
+    static void main(String[] args) {
         /*
             正则表达式练习:
             需求

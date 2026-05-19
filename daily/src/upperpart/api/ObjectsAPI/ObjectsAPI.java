@@ -3,7 +3,7 @@ package upperpart.api.ObjectsAPI;
 import java.util.Objects;
 
 public class ObjectsAPI{
-    public static void main(String[] args) {
+    static void main(String[] args) {
         /*
             public static boolean equals(Object a, Object b) 先做非空判断，比较两个对象
             public static boolean isNull(Object obj) 判断对象是否为null，为nul1返回true ，反之

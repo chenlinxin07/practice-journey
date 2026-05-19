@@ -4,7 +4,7 @@ import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
 public class CrawlerTest2 {
-    public static void main(String[] args) {
+    static void main(String[] args) {
         /*
             有如下文本，按要求爬取数据。
                 Java自从95年问世以来，经历了很多版本，目前企业中用的最多的是Java8和Java11，

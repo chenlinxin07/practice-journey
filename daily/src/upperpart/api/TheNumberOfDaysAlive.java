@@ -7,7 +7,7 @@ import java.time.temporal.ChronoUnit;
 import java.util.Date;
 
 public class TheNumberOfDaysAlive {
-    public static void main(String[] args) throws ParseException {
+    static void main(String[] args) throws ParseException {
         //请使用代码实现计算你活了多少天，用JDK7和JDK8两种方式完成
         //JDK7
         //规则:只要对时间进行计算或者判断，都需要先获取当前时间的毫秒值

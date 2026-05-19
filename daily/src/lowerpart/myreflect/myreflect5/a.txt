@@ -1,0 +1,8 @@
+name=桑启
+salary=10000.0
+
+name=少司缘
+age=23
+gender=女
+height=167.5
+hobby=睡觉

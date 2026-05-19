@@ -4,7 +4,7 @@ import java.util.Calendar;
 import java.util.Date;
 
 public class CalanderAPI {
-    public static void main(String[] args) {
+    static void main(String[] args) {
         /*
             public static Calendar lgetInstance()               获取当前时间的日历对象
             public final Date getTime()                         获取日期对象

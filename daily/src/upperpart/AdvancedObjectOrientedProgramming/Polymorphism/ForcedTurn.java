@@ -1,7 +1,7 @@
 package upperpart.AdvancedObjectOrientedProgramming.Polymorphism;
 
 public class ForcedTurn {
-    public static void main(String[] args) {
+    static void main(String[] args) {
         //创建对象
         Animal a = new Dog();
         //编译看左边，运行看右边

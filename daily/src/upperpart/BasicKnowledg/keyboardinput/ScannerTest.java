@@ -1,7 +1,7 @@
 package upperpart.BasicKnowledg.keyboardinput;//1导包
 import java.util.Scanner;
 public class ScannerTest{
-    public static void main(String []args){
+    static void main(String []args){
     //2.创建对象
     Scanner sc = new Scanner(System.in);
     

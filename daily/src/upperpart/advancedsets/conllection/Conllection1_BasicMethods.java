@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.Collection;
 
 public class Conllection1_BasicMethods {
-    public static void main(String[] args) {
+    static void main(String[] args) {
 /*
         public boolean add(E e)             添加
         public void clear()                 清空

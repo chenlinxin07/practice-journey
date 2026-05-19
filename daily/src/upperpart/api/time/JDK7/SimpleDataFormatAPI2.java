@@ -5,7 +5,7 @@ import java.text.SimpleDateFormat;
 import java.util.Date;
 
 public class SimpleDataFormatAPI2 {
-    public static void main(String[] args) throws ParseException {
+    static void main(String[] args) throws ParseException {
         /* 需求:
             秒杀活动开始时间:2023年11月11日 0:0:0(毫秒值)
             秒杀活动结束时间:2023年11月11日 0:10:0(毫秒值)

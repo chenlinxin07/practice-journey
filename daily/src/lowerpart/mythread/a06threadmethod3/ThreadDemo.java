@@ -1,7 +1,7 @@
 package lowerpart.mythread.a06threadmethod3;
 
 public class ThreadDemo {
-    public static void main(String[] args) {
+    static void main(String[] args) {
        /*
             final void setDaemon(boolean on)    设置为守护线程
             细节：

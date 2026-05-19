@@ -1,7 +1,7 @@
 package lowerpart.mythreadtest.test4case2;
 
 public class Test {
-    public static void main(String[] args) {
+    static void main(String[] args) {
         /*
             微信中的抢红包也用到了多线程。
             假设：100块，分成了3个包，现在有5个人去抢。

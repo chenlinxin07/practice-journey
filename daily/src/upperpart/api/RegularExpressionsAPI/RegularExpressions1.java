@@ -1,7 +1,7 @@
 package upperpart.api.RegularExpressionsAPI;
 
 public class RegularExpressions1 {
-    public static void main(String[] args) {
+    static void main(String[] args) {
         //public boolean matches(String regex):判断是否与正则表达式匹配，匹配返回true
         // 只能是a b c
         System.out.println("-----------1-------------");

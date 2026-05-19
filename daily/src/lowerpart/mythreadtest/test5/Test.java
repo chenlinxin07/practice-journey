@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.Collections;
 
 public class Test {
-    public static void main(String[] args) {
+    static void main(String[] args) {
         /*
             有一个抽奖池,该抽奖池中存放了奖励的金额,该抽奖池中的奖项为 {10,5,20,50,100,200,500,800,2,80,300,700};
             创建两个抽奖箱(线程)设置线程名称分别为“抽奖箱1”，“抽奖箱2”

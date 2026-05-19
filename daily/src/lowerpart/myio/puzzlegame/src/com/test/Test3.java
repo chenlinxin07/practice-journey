@@ -5,7 +5,7 @@ import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 
 public class Test3 {
-    public static void main(String[] args) {
+    static void main(String[] args) {
         JFrame jFrame = new JFrame();
         //设置界面的宽高
         jFrame.setSize(603, 680);

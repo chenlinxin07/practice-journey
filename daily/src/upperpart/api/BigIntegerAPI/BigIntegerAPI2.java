@@ -3,7 +3,7 @@ package upperpart.api.BigIntegerAPI;
 import java.math.BigInteger;
 
 public class BigIntegerAPI2 {
-    public static void main(String[] args) {
+    static void main(String[] args) {
         /*
             public BigInteger add(BigInteger val) 加法
             public BigInteger subtract(BigInteger val) 减法

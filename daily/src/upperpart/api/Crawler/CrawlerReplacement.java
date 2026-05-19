@@ -1,7 +1,7 @@
 package upperpart.api.Crawler;
 
 public class CrawlerReplacement {
-    public static void main(String[] args) {
+    static void main(String[] args) {
         //public string replaceAll(string regex,string newstr) 按照正则表达式的规则进行替换
         //public string[] split(string regex): 按照正则表达式的规则切割字符串
 
